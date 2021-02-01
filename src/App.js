@@ -1,12 +1,12 @@
 
 import './App.css';
+import RssForm from './components/Form/Form';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
       <h1>RSS Feed</h1>
-      </header>
+      <RssForm />
     </div>
   );
 }
